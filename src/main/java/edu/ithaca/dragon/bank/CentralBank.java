@@ -5,27 +5,32 @@ import java.util.Collection;
 public class CentralBank implements AdvancedAPI, AdminAPI {
 
     //----------------- BasicAPI methods -------------------------//
-
+    // @TODO convert for acctID parameter
     public boolean confirmCredentials(String acctId, String password) {
         return false;
     }
 
+    // @TODO convert for acctID parameter
     public double checkBalance(String acctId) {
         return 0;
     }
 
+    // @TODO convert for acctID parameter
     public void withdraw(String acctId, double amount) throws InsufficientFundsException {
 
     }
 
+    // @TODO convert for acctID parameter
     public void deposit(String acctId, double amount) {
 
     }
 
+    // @TODO convert for acctID parameter
     public void transfer(String acctIdToWithdrawFrom, String acctIdToDepositTo, double amount) throws InsufficientFundsException {
 
     }
 
+    // @TODO convert for acctID parameter
     public String transactionHistory(String acctId) {
         return null;
     }
